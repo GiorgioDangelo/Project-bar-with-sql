@@ -1,0 +1,41 @@
+--UTENTE ADMIN
+create user admin identified by admin1;
+grant all privileges to admin;
+
+
+--UTENTE GESTOREBAR
+create user gestorebar identified by admin;
+grant connect,create session to gestorebar;
+grant insert,update,delete on eventi to gestorebar;
+grant insert,update,delete on dipendenti to gestorebar;
+grant insert,update,delete on contratto to gestorebar;
+grant select,update on turno_di_lavoro to gestorebar;
+grant insert,update,delete on carello to gestorebar;
+grant select on fornitura to gestorebar;
+
+
+--UTENTE DIPENDENTI
+create user dipendenti identified by dipendenti1;
+grant connect,create session to dipendenti;
+grant select on accesso_limitato_dipendenti to dipendenti;
+grant select on dipendenti to dipendenti;
+grant select on contratto to dipendenti;
+
+
+
+
+
+
+
+**********************************************************************************************
+Per sapere di quali privilegi su tabelle si gode, bisogna interrogare una tabella di sistema:
+SELECT * FROM USER_TAB_PRIVS_RECD;
+Lo stesso vale per rammentare quali privilegi su tabelle abbiamo concesso ad altri utenti:
+SELECT * FROM USER_TAB_PRIVS_MADE;
+Per sapere di quali privilegi su colonne si gode, bisogna interrogare una tabella di sistema:
+SELECT * FROM USER_COL_PRIVS_RECD;
+Lo stesso vale per rammentare quali privilegi su colonne abbiamo concesso ad altri utenti:
+SELECT * FROM USER_COL_PRIVS_MADE;
+Infine per visualizzare tutti i privilegi facenti parte di un ruolo:
+SELECT * FROM USER_ROLE_PRIVS; 
+**********************************************************************************************

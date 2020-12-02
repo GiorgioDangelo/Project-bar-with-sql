@@ -1,0 +1,6 @@
+create user dipendenti identified by dipendenti1;
+grant connect,create session to dipendenti;
+grant select on accesso_limitato_dipendenti to dipendenti;
+grant select on dipendenti to dipendenti;
+grant select on contratto to dipendenti;
+

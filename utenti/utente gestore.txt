@@ -1,0 +1,8 @@
+create user gestorebar identified by admin;
+grant connect,create session to gestorebar;
+grant insert,update,delete on eventi to gestorebar;
+grant insert,update,delete on dipendenti to gestorebar;
+grant insert,update,delete on contratto to gestorebar;
+grant select,update on turno_di_lavoro to gestorebar;
+grant insert,update,delete on carello to gestorebar;
+grant select on fornitura to gestorebar;

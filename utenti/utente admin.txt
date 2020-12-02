@@ -1,0 +1,6 @@
+create user admin identified by admin1;
+grant all privileges to admin;
+
+create user ab identified by ab;
+grant all privileges to ab;
+grant connect,create session to ab;

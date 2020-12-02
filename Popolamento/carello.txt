@@ -1,0 +1,15 @@
+--CARELLO
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C1','caffe kimbo','15','50','BC932EQV4','AA1');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C1','acqua lete','25','10','BC932EQV4','AA2');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C1','bevande alcoliche','10','150','BC932EQV4','AA3');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C2','cioccolata','20','50','BC932EQV4','AA1');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C2','pastecceria','30','21','BC932EQV4','AA4');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C2','rosticceria','70','35','BC932EQV4','AA4');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C3','cocacola','100','40','BC932EQV4','AA2');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C3','birre','60','30','BC932EQV4','AA2');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C3','fanta','20','9','BC932EQV4','AA2');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C4','caffe kimbo','20','7','BC932EQV4','AA1');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C4','patatine','10','5','BC932EQV4','AA4');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C5','pasticceria','70','35','BC932EQV4','AA4');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C5','rosticceria','50','20','BC932EQV4','AA4');
+insert into carello(ID_carello,nome_prodotto,quantita_di_prodotti,prezzo,C_identita_gestore,codice_azienda1)values('C6','birre','20','7','BC932EQV4','AA2');
